@@ -27,8 +27,7 @@ header img{
     flex-grow: 2;
     position:relative;
     display: flex;
-    background-color: pink;
-}
+ }
 
 .items{
     flex-grow: 1;
@@ -72,7 +71,6 @@ header img{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border: 1px solid black;
 }
 
 .info h3 {
@@ -80,12 +78,12 @@ header img{
     align-items:center;
     justify-content:center;
     padding: 2rem;
-    border: 1px solid black;
+
 }
 
 .info p {
     margin:1.0rem 1.0rem;
-    border: 1px solid black;
+
     
 }
 
@@ -94,9 +92,56 @@ header img{
     flex-direction: column;
     justify-content: flex-end;
     align-items:flex-end;
-    border: 1px solid black;
+    text-decoration :none;
+
 
 }
+
+
+
+
+.select-plan {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    border:0.01rem solid black;
+    align-items:center;
+    justify-content:center;
+    top:0.1rem;
+    width:100%;
+    height:20%;
+
+
+}
+
+.select-plan .check{
+    position:relative;
+    width:3rem;
+    height:3rem;
+    margin:1rem;
+
+
+}
+
+
+.new-plan {
+   position:relative;
+   width:3rem;
+   height:3rem;
+   margin:1rem;
+
+}
+
+.plan{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width : 100%;
+
+}
+
 
 footer{
     display: flex;
@@ -106,7 +151,6 @@ footer{
     border-top: 0.1rem solid black;
     background-color:pink;
 }
-
 
 
 
