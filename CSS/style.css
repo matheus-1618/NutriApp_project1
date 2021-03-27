@@ -10,16 +10,14 @@ header{
     align-items: center;
     height: 7rem;
     border-bottom: 0.1rem solid black;   
-    background-color: lightcoral;
-    
+    background-color: #11A4ED;   
 }
+
 header h1{
     font: 1.7rem black;
-    font-style: italic;
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     max-width: 40%;
-    
 }
 
 header img{
@@ -29,8 +27,6 @@ header img{
     left: 0.3rem;
     top:2.3rem;
 }
-
-
 
 .content-box{
     max-width: 100%;
@@ -45,11 +41,15 @@ header img{
     max-width: 100%;
     height: 80%;
     overflow: scroll;
-    flex-grow: 2;
     justify-content: center;
     position:relative;
     display: flex;
+    display:column;
     flex-wrap: wrap;
+ }
+
+ .content-chocolate div{
+     min-width:100%;
  }
 
 .content-prog{
@@ -59,7 +59,7 @@ header img{
     height:80%;
     justify-content: space-evenly;
     align-items: center;
-    
+ 
  }
 
 .items{
@@ -81,13 +81,15 @@ header img{
     width: 30%;
     border: 0.1rem solid black;
     border-radius: 0.7rem;
-    
+
+    font: 1.2rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .select a{
-    font-size: 1.2rem;
     text-decoration: none;
     text-align: center;
+
 }
 
 .figure{
@@ -126,8 +128,7 @@ header img{
 
 
 .info {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     max-width: 20rem;
     
 }
@@ -136,20 +137,17 @@ header img{
     display: flex;
     align-items:center;
     justify-content:center;
-    padding: 2rem;
-    background-color: lightsalmon;
-    border-bottom: 0.1rem;
-    border-right: 0.1rem;
-    border-left: 0.1rem;
-    border-color: black;
-    border-style: solid;
-
+    padding: 0.8rem;
+    background-color: #ED8B11;
+    border:0.1rem solid black;
+    
+    font: 1.7rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .info p {
     margin:1.0rem 1.0rem;
-    overflow:hidden ;
-    
+    overflow:scroll; 
 }
 
 #paragrafo{
@@ -162,15 +160,19 @@ header img{
     padding: 1rem;
 }
 
-
 .mais{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items:flex-end;
     text-decoration :none;
-    margin-left: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom:0.5rem;
+    padding: 0.3rem;
+    border:0.1rem solid black;
+    border-radius: 0.3rem;
+
+    font: 1.2rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .select-plan {
@@ -183,6 +185,9 @@ header img{
     font-size:1.7rem;
     width:100%;
     height:25%;
+
+    font: 1.2rem black;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -226,12 +231,16 @@ header img{
     margin: 3rem 0rem 0rem 1.2rem;
     padding-right: 0.6rem;
     border-right: 0.1rem solid black;
+
 }
 
 .perfil h3{
     margin-top: 0.5rem;
-    font-size: 1rem;
-    font-style: italic;
+
+    font: 1rem black;
+    font-family: 'Roboto Slab', serif;
+
+    text-align: center;
 }
 
 .perfil img{
@@ -256,6 +265,11 @@ header img{
     max-height: 80%;
 
     border-right: 0.1rem solid black;
+}
+
+p {
+    font: 1rem black;
+    font-family: 'Roboto Slab', serif;
 }
 
 .like-dislike{
@@ -298,6 +312,9 @@ header img{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    font: 1.7rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .content-perfil .seu-perfil {
@@ -323,6 +340,9 @@ header img{
 
     width: 6rem;
     height: 3rem;
+
+    font: 1.2rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .content-perfil li {
@@ -341,9 +361,12 @@ header img{
     flex-direction:column;
     align-items:center;
     justify-content: space-evenly;
-    font-size: 1.5rem;
+    
     width:100%;
     height:80%;
+
+    font: 1.2rem black;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -353,15 +376,8 @@ textarea{
     flex-wrap: wrap;
     padding: 0rem;
 
-}
-
-
-.pergunta h3{
-    font-size: 1rem;
-}
-
-.pergunta a {
-    font-size: 1rem;
+    font: 1rem black;
+    font-family: 'Roboto Slab', serif;
 }
 
 .pergunta input{
@@ -376,9 +392,11 @@ footer{
     align-items: center;
     height: 4rem;
     border-top: 0.1rem solid black;
-    background-color:pink;
-    font-style: italic;
+    background-color:#066DA1; 
     text-decoration: none;
+
+    font: 1rem black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 footer img{
